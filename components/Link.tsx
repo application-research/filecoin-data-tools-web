@@ -1,7 +1,7 @@
 import styles from '@components/Link.module.scss';
 
-import NextLink from 'next/link';
 import { ReactNode } from 'react';
+import NextLink from 'next/link';
 
 function SwitchLinkStyle(style) {
   let defaultStyle;
