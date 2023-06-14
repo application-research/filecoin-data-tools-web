@@ -1,9 +1,9 @@
 import DefaultMetaTags from '@components/DefaultMetaTags';
 
 export default async function Head({ params }) {
-  const title = 'example';
-  const description = 'CHANGEME: description for your application using next-sass';
-  const url = 'CHANGEME: your-production-url.tld';
+  const title = 'Filecoin Data Tools';
+  const description = "Filecoin Data Tools uses the power of Filecoin, the world's largest decentralized storage network.";
+  const url = 'filecoindata.tools';
 
   // SUMMARY_LARGE_IMAGE: 1500x785
   return (
