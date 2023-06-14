@@ -1,0 +1,22 @@
+.hero {
+  height: 90vh;
+}
+
+.title {
+  font-size: var(--font-size-xxl);
+  width: 25ch;
+  font-family: 'Helvetica';
+  font-weight: var(--font-weight-light);
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.p {
+  padding-bottom: 1rem;
+  font-weight: var(--font-weight-light);
+}
+
+.paragraphMedium {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-light);
+}
