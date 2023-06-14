@@ -4,3 +4,7 @@ export enum CallToActionVariantEnum {
   BORDER_LIGHT = 'border-light',
   TEXT = 'text',
 }
+
+export enum BlockTypeEnum {
+  LOGO_GRID = 'logo-grid',
+}

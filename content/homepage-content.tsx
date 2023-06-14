@@ -1,4 +1,4 @@
-import { CallToActionVariantEnum } from '@root/common/types';
+import { BlockTypeEnum, CallToActionVariantEnum } from '@root/common/types';
 
 export const HOMEPAGE_HERO_CONTENT = {
   title: 'Compute & Storage technologies built on @Filecoin',
@@ -46,5 +46,28 @@ export const SIDEBAR_HOMEPAGE_CONTENT = [
   },
   {
     name: 'Next Steps',
+  },
+];
+
+export const HOMEPAGE_BLOCKS_CONTENT = [
+  {
+    id: 'learn-more',
+    title: 'Current and Past Partners',
+    direction: 'row',
+  },
+  {
+    id: 'learn-more',
+    title: 'Data Onboarding Services',
+    direction: 'row',
+  },
+  {
+    id: 'learn-more',
+    title: 'Data Preparation',
+    direction: 'row',
+  },
+  {
+    id: 'learn-more',
+    title: 'Storage Market',
+    direction: 'row',
   },
 ];

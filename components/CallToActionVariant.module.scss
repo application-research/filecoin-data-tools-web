@@ -15,14 +15,17 @@
 }
 
 .button {
-  padding: 0.5rem 3rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   text-decoration: none;
   cursor: pointer;
   border-bottom: none;
   border-radius: var(--border-radius-tiny);
   font-size: 1rem;
   border: none;
-  font-family: 'Helvetica';
+  font-family: 'IBM Plex Sans';
 
   @media (max-width: 768px) {
     font-size: var(--font-size-regular);
